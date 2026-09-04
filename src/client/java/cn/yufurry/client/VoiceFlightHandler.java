@@ -15,6 +15,12 @@ public class VoiceFlightHandler {
                 return;
             }
 
+            // Suppress fall damage on every tick while falling, not only while ascending,
+            // otherwise damage accumulates again as soon as the voice drops below the threshold
+            if (!config.fallDamage) {
+                player.fallDistance = 0;
+            }
+
             float volume = MicVolumeMonitor.get().getVolume();
             if (volume <= config.threshold) {
                 return;
@@ -28,10 +34,6 @@ public class VoiceFlightHandler {
             Vec3 velocity = player.getDeltaMovement();
             double newY = velocity.y + (lift - velocity.y) * 0.35;
             player.setDeltaMovement(velocity.x, newY, velocity.z);
-            // Suppress fall damage accumulated during voice flight unless explicitly enabled
-            if (!config.fallDamage) {
-                player.fallDistance = 0;
-            }
         });
     }
 }

@@ -4,6 +4,7 @@
   "package": "cn.yufurry.mixin.client",
   "compatibilityLevel": "JAVA_25",
   "client": [
+    "MixinLivingEntity"
   ],
   "injectors": {
     "defaultRequire": 1
