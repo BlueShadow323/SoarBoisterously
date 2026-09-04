@@ -10,6 +10,10 @@ English | [简体中文](docs/README.zh-CN.md) | [繁體中文](docs/README.zh-T
 ![Stonecutter](https://img.shields.io/badge/Stonecutter-0.9.8-8A2BE2)
 ![License](https://img.shields.io/badge/License-GPL--3.0-blue)
 
+<p align="center">
+  <img src="docs/assets/icon.png" width="128" alt="SoarBoisterously logo">
+</p>
+
 A client-side Fabric mod for Minecraft 26.1 / 26.2: **speak up and take off**. The louder you talk into your microphone, the faster you rise — no elytra, no rockets, just your voice.
 
 ## Features

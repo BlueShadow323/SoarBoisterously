@@ -10,6 +10,10 @@
 ![Stonecutter](https://img.shields.io/badge/Stonecutter-0.9.8-8A2BE2)
 ![License](https://img.shields.io/badge/License-GPL--3.0-blue)
 
+<p align="center">
+  <img src="assets/icon.png" width="128" alt="SoarBoisterously logo">
+</p>
+
 一个面向 Minecraft 26.1 / 26.2 的 Fabric 客户端模组：**大声喊出来，起飞！** 对着麦克风说话的声音越大，上升速度越快——不需要鞘翅，不需要烟花，只需要你的声音。
 
 ## 功能
