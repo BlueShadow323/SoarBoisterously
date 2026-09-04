@@ -33,17 +33,22 @@ public class ConfigScreen extends Screen {
             button.setMessage(fallDamageLabel());
         }).bounds(centerX - 100, 90, 200, 20).build());
 
-        addRenderableWidget(new ValueSlider(centerX - 100, 120, 200, 20,
+        addRenderableWidget(Button.builder(volumeBarLabel(), button -> {
+            ModConfig.INSTANCE.showVolumeBar = !ModConfig.INSTANCE.showVolumeBar;
+            button.setMessage(volumeBarLabel());
+        }).bounds(centerX - 100, 120, 200, 20).build());
+
+        addRenderableWidget(new ValueSlider(centerX - 100, 150, 200, 20,
                 "screen.soarboisterously.config.threshold",
                 ModConfig.INSTANCE.threshold, 0.01, 0.50,
                 v -> ModConfig.INSTANCE.threshold = v));
 
-        addRenderableWidget(new ValueSlider(centerX - 100, 150, 200, 20,
+        addRenderableWidget(new ValueSlider(centerX - 100, 180, 200, 20,
                 "screen.soarboisterously.config.lift",
                 ModConfig.INSTANCE.maxLift, 0.1, 1.0,
                 v -> ModConfig.INSTANCE.maxLift = v));
 
-        addRenderableWidget(new ValueSlider(centerX - 100, 180, 200, 20,
+        addRenderableWidget(new ValueSlider(centerX - 100, 210, 200, 20,
                 "screen.soarboisterously.config.sensitivity",
                 ModConfig.INSTANCE.sensitivity, 1.0, 8.0,
                 v -> ModConfig.INSTANCE.sensitivity = v));
@@ -62,6 +67,13 @@ public class ConfigScreen extends Screen {
     private Component fallDamageLabel() {
         return Component.translatable("screen.soarboisterously.config.fall_damage",
                 Component.translatable(ModConfig.INSTANCE.fallDamage
+                        ? "screen.soarboisterously.config.on"
+                        : "screen.soarboisterously.config.off"));
+    }
+
+    private Component volumeBarLabel() {
+        return Component.translatable("screen.soarboisterously.config.volume_bar",
+                Component.translatable(ModConfig.INSTANCE.showVolumeBar
                         ? "screen.soarboisterously.config.on"
                         : "screen.soarboisterously.config.off"));
     }

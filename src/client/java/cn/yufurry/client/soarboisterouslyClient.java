@@ -26,6 +26,7 @@ public class soarboisterouslyClient implements ClientModInitializer {
         ModConfig.load();
         MicVolumeMonitor.get().start();
         VoiceFlightHandler.register();
+        VolumeHud.register();
 
         openConfigKey = KeyMappingHelper.registerKeyMapping(new KeyMapping(
                 "key.soarboisterously.open_config",

@@ -10,5 +10,6 @@
   "screen.soarboisterously.config.threshold": "Voice Threshold",
   "screen.soarboisterously.config.lift": "Max Lift",
   "screen.soarboisterously.config.sensitivity": "Mic Sensitivity",
+  "screen.soarboisterously.config.volume_bar": "Volume Bar: %s",
   "screen.soarboisterously.config.volume": "Current mic volume: %s"
 }

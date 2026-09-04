@@ -10,5 +10,6 @@
   "screen.soarboisterously.config.threshold": "声のしきい値",
   "screen.soarboisterously.config.lift": "最大上昇力",
   "screen.soarboisterously.config.sensitivity": "マイク感度",
+  "screen.soarboisterously.config.volume_bar": "音量バー：%s",
   "screen.soarboisterously.config.volume": "現在のマイク音量：%s"
 }

@@ -19,6 +19,9 @@ public class ModConfig {
 
     public boolean enabled = true;
 
+    // Whether the on-screen volume bar is drawn in the bottom-right corner
+    public boolean showVolumeBar = true;
+
     // When false, fall damage is suppressed during and shortly after voice flight
     public boolean fallDamage = false;
 

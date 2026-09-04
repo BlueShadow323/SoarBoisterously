@@ -10,5 +10,6 @@
   "screen.soarboisterously.config.threshold": "Umbral de voz",
   "screen.soarboisterously.config.lift": "Empuje máximo",
   "screen.soarboisterously.config.sensitivity": "Sensibilidad del micrófono",
+  "screen.soarboisterously.config.volume_bar": "Barra de volumen: %s",
   "screen.soarboisterously.config.volume": "Volumen actual del micrófono: %s"
 }

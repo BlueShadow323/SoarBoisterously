@@ -10,5 +10,6 @@
   "screen.soarboisterously.config.threshold": "Порог голоса",
   "screen.soarboisterously.config.lift": "Максимальная тяга",
   "screen.soarboisterously.config.sensitivity": "Чувствительность микрофона",
+  "screen.soarboisterously.config.volume_bar": "Шкала громкости: %s",
   "screen.soarboisterously.config.volume": "Текущий уровень микрофона: %s"
 }

@@ -10,5 +10,6 @@
   "screen.soarboisterously.config.threshold": "소리 임계값",
   "screen.soarboisterously.config.lift": "최대 상승력",
   "screen.soarboisterously.config.sensitivity": "마이크 감도",
+  "screen.soarboisterously.config.volume_bar": "음량 막대: %s",
   "screen.soarboisterously.config.volume": "현재 마이크 볼륨: %s"
 }

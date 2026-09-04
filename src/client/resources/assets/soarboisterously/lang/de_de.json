@@ -10,5 +10,6 @@
   "screen.soarboisterously.config.threshold": "Stimmschwellenwert",
   "screen.soarboisterously.config.lift": "Maximaler Auftrieb",
   "screen.soarboisterously.config.sensitivity": "Mikrofon-Empfindlichkeit",
+  "screen.soarboisterously.config.volume_bar": "Lautstärkeanzeige: %s",
   "screen.soarboisterously.config.volume": "Aktueller Mikrofonpegel: %s"
 }
