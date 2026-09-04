@@ -1,0 +1,14 @@
+{
+  "key.category.soarboisterously.main": "SoarBoisterously",
+  "key.soarboisterously.open_config": "음성 비행 설정 열기",
+  "key.soarboisterously.toggle_flight": "음성 비행 전환",
+  "screen.soarboisterously.config.title": "SoarBoisterously 설정",
+  "screen.soarboisterously.config.toggle": "음성 비행: %s",
+  "screen.soarboisterously.config.on": "켜기",
+  "screen.soarboisterously.config.off": "끄기",
+  "screen.soarboisterously.config.fall_damage": "낙하 피해: %s",
+  "screen.soarboisterously.config.threshold": "소리 임계값",
+  "screen.soarboisterously.config.lift": "최대 상승력",
+  "screen.soarboisterously.config.sensitivity": "마이크 감도",
+  "screen.soarboisterously.config.volume": "현재 마이크 볼륨: %s"
+}

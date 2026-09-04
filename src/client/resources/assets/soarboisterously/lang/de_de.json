@@ -1,0 +1,14 @@
+{
+  "key.category.soarboisterously.main": "SoarBoisterously",
+  "key.soarboisterously.open_config": "Sprachflug-Einstellungen öffnen",
+  "key.soarboisterously.toggle_flight": "Sprachflug umschalten",
+  "screen.soarboisterously.config.title": "SoarBoisterously-Einstellungen",
+  "screen.soarboisterously.config.toggle": "Sprachflug: %s",
+  "screen.soarboisterously.config.on": "An",
+  "screen.soarboisterously.config.off": "Aus",
+  "screen.soarboisterously.config.fall_damage": "Fallschaden: %s",
+  "screen.soarboisterously.config.threshold": "Stimmschwellenwert",
+  "screen.soarboisterously.config.lift": "Maximaler Auftrieb",
+  "screen.soarboisterously.config.sensitivity": "Mikrofon-Empfindlichkeit",
+  "screen.soarboisterously.config.volume": "Aktueller Mikrofonpegel: %s"
+}

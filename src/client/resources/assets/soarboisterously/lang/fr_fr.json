@@ -1,0 +1,14 @@
+{
+  "key.category.soarboisterously.main": "SoarBoisterously",
+  "key.soarboisterously.open_config": "Ouvrir les paramètres de vol vocal",
+  "key.soarboisterously.toggle_flight": "Activer/Désactiver le vol vocal",
+  "screen.soarboisterously.config.title": "Paramètres de SoarBoisterously",
+  "screen.soarboisterously.config.toggle": "Vol vocal : %s",
+  "screen.soarboisterously.config.on": "Activé",
+  "screen.soarboisterously.config.off": "Désactivé",
+  "screen.soarboisterously.config.fall_damage": "Dégâts de chute : %s",
+  "screen.soarboisterously.config.threshold": "Seuil vocal",
+  "screen.soarboisterously.config.lift": "Poussée maximale",
+  "screen.soarboisterously.config.sensitivity": "Sensibilité du micro",
+  "screen.soarboisterously.config.volume": "Volume actuel du micro : %s"
+}

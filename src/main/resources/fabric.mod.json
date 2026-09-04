@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "soarboisterously",
+  "version": "${version}",
+  "name": "SoarBoisterously",
+  "description": "Speak loudly, let your voice take you to new heights!",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/soarboisterously/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "cn.yufurry.client.soarboisterouslyDataGenerator"
+    ],
+    "client": [
+      "cn.yufurry.client.soarboisterouslyClient"
+    ],
+    "main": [
+      "cn.yufurry.soarboisterously"
+    ]
+  },
+  "mixins": [
+    "soarboisterously.mixins.json",
+    {
+      "config": "soarboisterously.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_dependency}"
+  }
+}

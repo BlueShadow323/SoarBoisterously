@@ -1,0 +1,14 @@
+{
+  "key.category.soarboisterously.main": "SoarBoisterously",
+  "key.soarboisterously.open_config": "Abrir ajustes de vuelo por voz",
+  "key.soarboisterously.toggle_flight": "Alternar vuelo por voz",
+  "screen.soarboisterously.config.title": "Ajustes de SoarBoisterously",
+  "screen.soarboisterously.config.toggle": "Vuelo por voz: %s",
+  "screen.soarboisterously.config.on": "Activado",
+  "screen.soarboisterously.config.off": "Desactivado",
+  "screen.soarboisterously.config.fall_damage": "Daño por caída: %s",
+  "screen.soarboisterously.config.threshold": "Umbral de voz",
+  "screen.soarboisterously.config.lift": "Empuje máximo",
+  "screen.soarboisterously.config.sensitivity": "Sensibilidad del micrófono",
+  "screen.soarboisterously.config.volume": "Volumen actual del micrófono: %s"
+}

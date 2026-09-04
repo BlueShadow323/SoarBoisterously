@@ -1,0 +1,14 @@
+{
+  "key.category.soarboisterously.main": "SoarBoisterously",
+  "key.soarboisterously.open_config": "開啟語音飛行設定",
+  "key.soarboisterously.toggle_flight": "切換語音飛行",
+  "screen.soarboisterously.config.title": "SoarBoisterously 設定",
+  "screen.soarboisterously.config.toggle": "語音飛行：%s",
+  "screen.soarboisterously.config.on": "開",
+  "screen.soarboisterously.config.off": "關",
+  "screen.soarboisterously.config.fall_damage": "摔落傷害：%s",
+  "screen.soarboisterously.config.threshold": "聲音閾值",
+  "screen.soarboisterously.config.lift": "最大升力",
+  "screen.soarboisterously.config.sensitivity": "麥克風靈敏度",
+  "screen.soarboisterously.config.volume": "目前麥克風音量：%s"
+}

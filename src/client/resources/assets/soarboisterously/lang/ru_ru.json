@@ -1,0 +1,14 @@
+{
+  "key.category.soarboisterously.main": "SoarBoisterously",
+  "key.soarboisterously.open_config": "Открыть настройки голосового полёта",
+  "key.soarboisterously.toggle_flight": "Переключить голосовой полёт",
+  "screen.soarboisterously.config.title": "Настройки SoarBoisterously",
+  "screen.soarboisterously.config.toggle": "Голосовой полёт: %s",
+  "screen.soarboisterously.config.on": "Вкл",
+  "screen.soarboisterously.config.off": "Выкл",
+  "screen.soarboisterously.config.fall_damage": "Урон от падения: %s",
+  "screen.soarboisterously.config.threshold": "Порог голоса",
+  "screen.soarboisterously.config.lift": "Максимальная тяга",
+  "screen.soarboisterously.config.sensitivity": "Чувствительность микрофона",
+  "screen.soarboisterously.config.volume": "Текущий уровень микрофона: %s"
+}

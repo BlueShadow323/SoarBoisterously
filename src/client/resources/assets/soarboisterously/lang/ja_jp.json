@@ -1,0 +1,14 @@
+{
+  "key.category.soarboisterously.main": "SoarBoisterously",
+  "key.soarboisterously.open_config": "音声飛行設定を開く",
+  "key.soarboisterously.toggle_flight": "音声飛行の切り替え",
+  "screen.soarboisterously.config.title": "SoarBoisterously 設定",
+  "screen.soarboisterously.config.toggle": "音声飛行：%s",
+  "screen.soarboisterously.config.on": "オン",
+  "screen.soarboisterously.config.off": "オフ",
+  "screen.soarboisterously.config.fall_damage": "落下ダメージ：%s",
+  "screen.soarboisterously.config.threshold": "声のしきい値",
+  "screen.soarboisterously.config.lift": "最大上昇力",
+  "screen.soarboisterously.config.sensitivity": "マイク感度",
+  "screen.soarboisterously.config.volume": "現在のマイク音量：%s"
+}
